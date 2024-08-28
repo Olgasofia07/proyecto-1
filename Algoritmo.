@@ -1,1 +1,40 @@
+Entradas
+ Consumo de energía
+            -Pago de luz
+            -Porcentaje de fuentes renovables
+            -Pago de gas 
+  Transporte
+            -medio de transporte más frecuente
+            -Kilómetros recorridos al año
+            -Vuelos al año
+  Alimentos
+            -Consumo de carne
+            -Alimentos locales o importados
+  Residuos
+            -Cantidad de residuos
+            -Residuos reciclados 
+
+Mostrar "¿Cuál es tu huella de carbono?, ¿Cuántos aárboles necesitarías plantar para cubrirla?, ¡Vamos a descubrirla!"
+Mostrar "Contesta las siguientes preguntas"
+
+Total= 0
+
+Luzm=Pedir "¿Cúanto pagas de luz al mes?
+              Total = total+ (Luzm/0.777666)*1000
+FR= Pedir "¿Qué porcentaje de tu electricidad proviene de fuentes renovables?, nada=0%, bajo=-50%, alto=50%-99%, completo=100%"
+              if FR=nada
+                Total=Total + (Total*.10)
+              elif FR=alto
+                Total=(Total*0.5)
+              elif FR=completo
+                Total=0
+    
+Gas= Pedir "¿Cuánto pagas de luz al mes?"
+              Total= Total + (Gas/19.16)
+
+
+Mostrar "Ahora preguntaremos un par de cosas sobre tu transporte"
+
+
+
 
