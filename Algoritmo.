@@ -19,8 +19,9 @@ Mostrar "Contesta las siguientes preguntas"
 
 Total= 0
 
-Luzm=Pedir "¿Cúanto pagas de luz al mes?
-              Total = total+ (Luzm/0.777666)*1000
+Luzm=Pedir "¿Cúanto kWh consumes al mes?"
+              Total= Luzm*0.5
+
 FR= Pedir "¿Qué porcentaje de tu electricidad proviene de fuentes renovables?, nada=0%, bajo=-50%, alto=50%-99%, completo=100%"
               if FR=nada
                 Total=Total + (Total*.10)
@@ -29,11 +30,16 @@ FR= Pedir "¿Qué porcentaje de tu electricidad proviene de fuentes renovables?,
               elif FR=completo
                 Total=0
     
-Gas= Pedir "¿Cuánto pagas de luz al mes?"
-              Total= Total + (Gas/19.16)
+Gas= Pedir "¿Cuánto pagas de gas al mes?"
+              m3=Gas/0.38094
+              CG=m3*2.1
+              Total=Total+CG
 
 
 Mostrar "Ahora preguntaremos un par de cosas sobre tu transporte"
+
+Pedir"Cúal medio de transporte usas normalmente? (BIcicleta, Caminar, transporte público, Automóvil(Gasolina diesel), Motocicleta, Camioneta"
+
 
 
 
