@@ -1,1 +1,20 @@
+(AVANCE 1)
+  La descripción del proyecto es bastante buena y es muy interesante.
+  No encontré el algoritmo en el repositorio.
 
+(Avance 2)
+Se hace un uso eficaz de operaciones aritmeticas para el calculo de variables.
+Sin embargo tu archivo de avance3 no tiene extension asi que no es ejecutable.
+
+(AVANCE 3)
+Creas una funcion pero jamas la mandas a llamar. Tu archivo de avance3 no tiene extension asi que no es ejecutable.
+
+(AVANCE 4)
+No haces uso de estructuras conndicionales
+
+(AVANCE 5)
+No haces uso de estructuras cicliclas
+
+(AVANCE 6)
+Haces un uso apriopiado en el uso de diccionarios para la declaracion de constantes, sin embargo, tu uso de listas para la creacion de usuarios es un poco confuso el uso y sequencia de tu aplicacion, ya que la unica instruccion es 
+seleccionar el numero de usuarios  a generar, lo cual no conincide con tu README en el cual se indica que se solicitara y/o se podra registrar en la aplicacion la candidad de residuos del mismo.
